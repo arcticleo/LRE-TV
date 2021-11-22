@@ -15,8 +15,7 @@ struct NavMenuView: View {
             FeaturedView()
                 .tag(FeaturedView.tag)
                 .tabItem {
-                    Image(systemName: "star")
-                    Text("Featured")
+                    Label("Featured", systemImage: "star")
                 }
             DiscoverView()
                 .tag(DiscoverView.tag)
